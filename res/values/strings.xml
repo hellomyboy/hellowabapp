@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationServiceDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tip_network_error">没有可用的网络</string>
+    <string name="tip_load_data_error">对不起,无法加载数据.</string>
+
+    <!-- List View -->
+    <string name="loading_no_data">无数据</string>
+    <string name="loading">加载中…</string>
+    <string name="loading_no_more">没有更多</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/main_menu_searchview"
+        android:icon="@drawable/actionbar_search_icon"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSearch"
+        android:title="搜索地点" />
+
+    <item
+        android:id="@+id/main_menu_search"
+        android:visible="false"
+        app:showAsAction="always"
+        android:title="搜索"/>
+
+    <item
+        android:id="@+id/main_menu_sure"
+        app:showAsAction="always"
+        android:title="确定"/>
+
+</menu>

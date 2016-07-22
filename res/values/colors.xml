@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- list -->
+    <color name="list_divider_color">#DADADA</color>
+    <color name="list_item_background_normal">@android:color/white</color>
+    <color name="list_item_background_pressed">#e1f5fe</color>
+
+    <color name="listitem_transparent">@android:color/transparent</color>
+    <color name="listitem_black">#353535</color>
+    <color name="listitem_white">#FDFDFD</color>
+    <color name="listitem_blue">#0288d1</color>
+    <color name="listitem_gray">#9A9A9A</color>
+
+</resources>

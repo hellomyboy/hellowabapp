@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+
+    <style name="Widget" />
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_holo</item>
+    </style>
+
+</resources>

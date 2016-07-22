@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="百度地图" />
+
+    <Button
+        android:id="@+id/btnOnce"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="定位一次" />
+
+    <Button
+        android:id="@+id/btnAuto"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignBottom="@+id/btnOnce"
+        android:layout_alignTop="@+id/btnOnce"
+        android:layout_toRightOf="@+id/btnOnce"
+        android:text="自动定位" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignBottom="@+id/btnAuto"
+        android:layout_alignTop="@+id/btnAuto"
+        android:layout_toRightOf="@+id/btnAuto"
+        android:text="停止" />
+
+    <!--
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/BtnOnce"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="定位一次"
+        custom:bb_icon_right="fa-trophy"
+        custom:bb_type="primary" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/BtnAuto"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignBottom="@+id/BtnOnce"
+        android:layout_alignTop="@+id/BtnOnce"
+        android:layout_toRightOf="@+id/BtnOnce"
+        android:text="自动定位"
+        custom:bb_icon_right="fa-trophy"
+        custom:bb_type="primary" />
+    -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnOnce"
+        android:layout_marginBottom="14dp"
+        android:text="扫描时间间隔 :"
+        android:textColor="@android:color/white">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_toRightOf="@id/textView1"
+        android:layout_alignBottom="@id/textView1"
+        android:text="3000" >
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/isAddrInfocb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edit1"
+        android:layout_marginBottom="14dp"
+        android:text="是否要地址信息"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
